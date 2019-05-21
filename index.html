@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Initab</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="startTime(); startDate()">
         <nav>
             <ul>
                 <li><i class="fas fa-wrench"></i> SETTINGS</li>
@@ -24,12 +24,13 @@
             </ul>
         </nav>
         <main>
-            <section class="history">
-                <h1>RELEVANT JAVASCRIPT HISTORY</h1>
-            </section>
             <section class="clock">
                 <span id="time"></span>
+                <br>
                 <span id="date"></span>
+            </section>
+            <section class="history">
+                <h1>RELEVANT JAVASCRIPT HISTORY</h1>
             </section>
             <section class="reddit">
                 <h1>POPULAR ON R/JAVASCRIPT</h1>
@@ -39,5 +40,6 @@
             </section>
         </main>
         <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
     </body>
 </html>
