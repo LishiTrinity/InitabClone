@@ -3,11 +3,12 @@
     <head>
         <title>Initab</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body onload="startTime(); startDate()">
         <nav>
-            <ul>
-                <li><i class="fas fa-wrench"></i> SETTINGS</li>
+            <ul class="navigation">
+                <li><i class="fas fa-wrench" style="background: #87E1F5; padding: 2px;"></i> <span style="color: #87E1F5;">SETTINGS</span></li>
                 <li><i class="fas fa-code"></i> GISTS</li>
                 <li><i class="fab fa-stack-overflow"></i> STACK OVERFLOW</li>
                 <li><i class="fas fa-chart-line"></i> TRENDING</li>
@@ -15,13 +16,15 @@
                 <li><i class="far fa-lightbulb"></i> PLAYGROUND</li>
                 <li><i class="fas fa-question"></i> HELP/INTRO</li>
             </ul>
-            <img src="initab_logo.png" alt="">
-            <ul>
+            <div class="wrapper">
+            <img src="initab_logo.png" alt="logo">
+            <ul class="social">
                 <li><i class="fab fa-facebook"></i></li>
                 <li><i class="fab fa-linkedin"></i></li>
                 <li><i class="fab fa-twitter-square"></i></li>
                 <li><i class="fab fa-reddit"></i></li>
             </ul>
+            </div>
         </nav>
         <main>
             <section class="clock">
@@ -31,9 +34,12 @@
             </section>
             <section class="history">
                 <h1>RELEVANT JAVASCRIPT HISTORY</h1>
+                <p>lorem</p>
             </section>
             <section class="reddit">
                 <h1>POPULAR ON R/JAVASCRIPT</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae obcaecati nulla sapiente repellendus asperiores aspernatur, necessitatibus sequi neque, voluptates, numquam explicabo voluptatem nobis recusandae illo inventore corporis adipisci ex natus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi velit excepturi atque eveniet, eligendi voluptatibus animi tempore molestiae blanditiis tempora dolore quaerat culpa voluptas labore ea illum, vero, maxime possimus?</p>
             </section>
             <section class="github">
                 <h1>GITHUB ISSUES HISTORY</h1>
