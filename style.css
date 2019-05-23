@@ -1,7 +1,68 @@
 body {
     background: #272935;
     color: #6272A4;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #44475B;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 ul {
     list-style: none;
+}
+.navigation li{
+    display: block;
+    padding: 10px 0px;
+}
+.wrapper img {
+    margin: 0 auto;
+    display: block;
+}
+/*.fa-wrench {
+    background-color: #87E1F5;
+}*/
+.wrapper {
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+
+main{
+    margin-left: 22%;
+    height: 100%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+            "reddit history github"
+            "reddit clock github";
+    grid-gap: 10px;
+}
+h1 {
+    color: #87E1F5;
+}
+.reddit{
+    grid-area: reddit;
+}
+
+.history {
+    grid-area: history;
+}
+.clock {
+    grid-area: clock;
+    text-align: center;
+}
+.github {
+    grid-area: github;
 }
