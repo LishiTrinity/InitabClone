@@ -17,17 +17,37 @@ nav{
 ul {
     list-style: none;
 }
+a .fa-facebook, a:visited{
+    text-decoration: none;
+    color: #34599D;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+a .fa-linkedin, a:visited{
+    text-decoration: none;
+    color: #2B7FB0;
+    background-color: #ffffff;
+    font-size: 2rem;
+}
+a .fa-twitter-square, a:visited{
+    text-decoration: none;
+    color: #3CACED;
+    background-color: #ffffff;
+    font-size: 2rem;
+}
+a .fa-reddit, a:visited{
+    text-decoration: none;
+    color: #6098CE;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 2rem;
+}
 .navigation li{
     display: block;
     padding: 10px 0px;
 }
-.wrapper img {
-    margin: 0 auto;
-    display: block;
-}
-/*.fa-wrench {
-    background-color: #87E1F5;
-}*/
+
 .wrapper {
     bottom: 0px;
     position: absolute;
