@@ -73,6 +73,9 @@ main{
 h1 {
     color: #87E1F5;
 }
+h5 {
+    text-align: center;
+}
 article {
     border-left: #45485C solid 4px;
     padding-left: 6px;
@@ -86,6 +89,9 @@ article {
 .pink-text {
     color: #ED75C5;
 }
+.grey-text {
+    color: #9E9E9E
+}
 .reddit{
     grid-area: reddit;
     overflow: auto;
@@ -95,13 +101,21 @@ article {
     grid-area: history;
     overflow: auto;
 }
+.history article {
+    border: none;
+    padding: none;
+    display: flex;
+    justify-content: space-between;
+}
 .clock {
     grid-area: clock;
     text-align: center;
-    font-size: 2rem;
     justify-self: center;
     align-self: center;
-
+}
+#time {
+    font-size: 6em;
+    font-weight: bold;
 }
 .github {
     grid-area: github;
@@ -110,6 +124,6 @@ article {
 .sub-heading {
     display: flex;
     justify-content: space-evenly;
-    white-space: nowrap;
     font-size: .75em;
+    text-align: center;
 }
