@@ -60,7 +60,7 @@ a .fa-reddit, a:visited{
 
 main{
     margin-left: 22%;
-    height: 100%;
+    height: 100vh;
     width: 75%;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -74,8 +74,10 @@ h1 {
     color: #87E1F5;
 }
 article {
-    border-left: #45485C solid 2px;
-    padding-left: 5px;
+    border-left: #45485C solid 4px;
+    padding-left: 6px;
+}
+.white-text {
     color: #FEFEF8;
 }
 .yellow-text {
@@ -86,11 +88,12 @@ article {
 }
 .reddit{
     grid-area: reddit;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .history {
     grid-area: history;
+    overflow: auto;
 }
 .clock {
     grid-area: clock;
@@ -102,4 +105,11 @@ article {
 }
 .github {
     grid-area: github;
+    overflow: auto;
+}
+.sub-heading {
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    font-size: .75em;
 }
